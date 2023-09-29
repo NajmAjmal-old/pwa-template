@@ -4,7 +4,7 @@ const cacheUrls = [
     '/index.html', // Add any other HTML files you have
     '/styles.css',
     '/app.js',
-    '/icon.png',
+    '/pwa.png',
     // Add other assets and resources you want to cache
 ];
 
