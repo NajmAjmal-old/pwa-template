@@ -2,6 +2,7 @@
     "name": "PWA Installable Website",
     "short_name": "PWA Website",
     "description": "A simple PWA installable website",
+    "author": "Najm Ajmal",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
