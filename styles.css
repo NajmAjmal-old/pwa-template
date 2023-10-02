@@ -5,20 +5,68 @@ body {
     background-color: #f0f0f0;
 }
 
-.content {
-    text-align: center;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
-button {
+.container:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    text-align: center;
+}
+
+.button,
+.button-alt {
     background-color: #4caf50;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-button:hover {
+.button:hover,
+.button-alt:hover {
     background-color: #45a049;
 }
+
+.install-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.install-button:hover {
+    background-color: #2980b9;
+}
+
+/* Additional styles and effects */
+
+.container-alt {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.container-alt:hover {
+    transform: scale(1.03);
+}
+
+/* Add more custom styles and containers as needed */
